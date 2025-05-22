@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.NetflixStyle" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/netflix_primary</item>
+        <item name="colorOnPrimary">@color/netflix_on_primary</item>
+
+        <item name="backgroundColor">@color/menu</item>
+        <item name="colorOnBackground">@color/menu</item>
+
+
+        <item name="colorSurface">@color/menu</item>
+        <item name="colorOnSurface">@color/netflix_on_background</item>
+
+        <item name="android:windowBackground">@color/menu</item>
+    </style>
+</resources>
