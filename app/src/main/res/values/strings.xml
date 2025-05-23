@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">Netflix</string>
+    <string name="app_name">Netflix Style</string>
+    <string name="movie_title">Som da Esperança</string>
+    <string name="assistir">Assistir</string>
+    <string name="minha_lista">Minha Lista</string>
+    <string name="informacoes">Informações</string>
+    <string name="lancamentos">Lançamentos</string>
+    <string name="meunome">Felipe Costabeber Schneider</string>
 </resources>

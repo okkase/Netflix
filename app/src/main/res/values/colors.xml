@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="netflix_primary">#E50914</color> <!-- vermelho Netflix -->
-    <color name="netflix_background">#141414</color> <!-- fundo quase preto -->
-    <color name="netflix_surface">#1E1E1E</color> <!-- superfícies como cards -->
+    <color name="netflix_primary">#D00F19</color>
+    <color name="fundo">#141414</color>
+    <color name="preto">#000000</color>
     <color name="netflix_on_primary">#FFFFFF</color>
-    <color name="netflix_on_background">#FFFFFF</color>
-    <color name="menu">#B31111</color>
+    <color name="branco">#FFFFFF</color>
+    <color name="menu_navegacao">#D8FFFFFF</color>
 </resources>
