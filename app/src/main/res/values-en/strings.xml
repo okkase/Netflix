@@ -4,5 +4,8 @@
     <string name="minha_lista" translatable="true">"My List"</string>
     <string name="informacoes" translatable="true">information</string>
     <string name="lancamentos" translatable="true">Releases</string>
+    <string name="filmes" translatable="true">Films</string>
+    <string name="series" translatable="true">Series</string>
+
 
 </resources>

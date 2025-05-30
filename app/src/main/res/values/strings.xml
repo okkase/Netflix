@@ -6,4 +6,6 @@
     <string name="informacoes" translatable="true">Informações</string>
     <string name="lancamentos" translatable="true">Lançamentos</string>
     <string name="meunome" translatable="false">Felipe Costabeber Schneider</string>
+    <string name="filmes" translatable="true">Filmes</string>
+    <string name="series" translatable="true">Series</string>
 </resources>

@@ -12,8 +12,8 @@
 
     <ImageView
         android:id="@+id/imageCapa"
-        android:layout_width="0dp"
-        android:layout_height="320dp"
+        android:layout_width="382dp"
+        android:layout_height="352dp"
         android:scaleType="centerCrop"
         android:src="@drawable/capa"
         app:layout_constraintEnd_toEndOf="parent"
@@ -143,22 +143,23 @@
 
     <ImageView
         android:id="@+id/imageLogoNetflix"
-        android:layout_width="80dp"
+        android:layout_width="60dp"
         android:layout_height="60dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
         android:scaleType="fitCenter"
-        android:src="@drawable/logo"
 
+        android:src="@drawable/logo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView"
 
-        android:layout_width="100dp"
-        android:layout_height="250dp"
+        android:layout_width="97dp"
+        android:layout_height="218dp"
 
-        android:layout_marginEnd="20dp"
+        android:layout_marginEnd="16dp"
         app:layout_constraintBottom_toTopOf="@+id/button_info"
         app:layout_constraintEnd_toEndOf="@+id/imageCapa"
         app:srcCompat="@drawable/logofilme" />
@@ -176,5 +177,36 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintGuide_end="16dp" />
+
+    <TextView
+        android:id="@+id/textViewSeries"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:textColor="@color/branco"
+        android:text="@string/series"
+        app:layout_constraintBottom_toBottomOf="@+id/imageLogoNetflix"
+        app:layout_constraintStart_toEndOf="@+id/imageLogoNetflix"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewFilmes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:text="@string/filmes"
+        android:textColor="@color/branco"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewSeries"
+        app:layout_constraintStart_toEndOf="@+id/textViewSeries" />
+
+    <TextView
+        android:id="@+id/textViewMinhaList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:textColor="@color/branco"
+        android:text="@string/minha_lista"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewFilmes"
+        app:layout_constraintStart_toEndOf="@+id/textViewFilmes" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
