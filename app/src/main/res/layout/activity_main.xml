@@ -185,6 +185,7 @@
         android:layout_marginStart="36dp"
         android:textColor="@color/branco"
         android:text="@string/series"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageLogoNetflix"
         app:layout_constraintStart_toEndOf="@+id/imageLogoNetflix"
         app:layout_constraintTop_toTopOf="parent" />
@@ -196,6 +197,7 @@
         android:layout_marginStart="36dp"
         android:text="@string/filmes"
         android:textColor="@color/branco"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/textViewSeries"
         app:layout_constraintStart_toEndOf="@+id/textViewSeries" />
 
@@ -205,6 +207,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="36dp"
         android:textColor="@color/branco"
+        android:textStyle="bold"
         android:text="@string/minha_lista"
         app:layout_constraintBottom_toBottomOf="@+id/textViewFilmes"
         app:layout_constraintStart_toEndOf="@+id/textViewFilmes" />
