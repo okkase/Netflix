@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="assistir" translatable="true">Play</string>
+    <string name="minha_lista" translatable="true">"My List"</string>
+    <string name="informacoes" translatable="true">information</string>
+    <string name="lancamentos" translatable="true">Releases</string>
+
+</resources>

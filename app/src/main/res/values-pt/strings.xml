@@ -1,9 +1,8 @@
 <resources>
-    <string name="app_name" translatable="false">Netflix Style</string>
-    <string name="movie_title" translatable="false">The Last of Us</string>
+>
     <string name="assistir" translatable="true">Assistir</string>
     <string name="minha_lista" translatable="true">"Minha Lista "</string>
     <string name="informacoes" translatable="true">Informações</string>
     <string name="lancamentos" translatable="true">Lançamentos</string>
-    <string name="meunome" translatable="false">Felipe Costabeber Schneider</string>
+
 </resources>
